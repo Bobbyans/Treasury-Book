@@ -7,7 +7,7 @@ function login(event) {
   if (
     (userName == "franklin" && passWord == "franklin") ||
     (userName == "eben" && passWord == "eben") ||
-    (userName == "mary" && passWord == "mary") ||
+    (userName == "sam" && passWord == "sam") ||
     (userName == "stella" && passWord == "stella")
   ) {
     /*  alert("Login Successful"); */
@@ -18,8 +18,8 @@ function login(event) {
     else if(userName=="STELLA"){
         userName="Madam STELLA"+ "👸🏾";
     }
-    else if(userName=="MARY"){
-        userName="Madam MARY"+ "👸🏾";
+    else if(userName=="SAM"){
+        userName="MR SAMUEL"+ "✅";
     }
     else if(userName=="EBEN"){
         userName="EBEN"+ "✅";
